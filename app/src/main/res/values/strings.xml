@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">In Touch</string>
     <string name="app_bg_text">Stay in touch</string>
+    <string name="button_connect">Connect</string>
+    <string name="input_ip_address">IP Address of Partner Device</string>
 </resources>

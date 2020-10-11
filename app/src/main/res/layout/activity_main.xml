@@ -6,19 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
+        android:id="@+id/enterPartnerDeviceId"
+        android:layout_width="278dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginEnd="62dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:inputType="textPersonName"
+        android:text="@string/input_ip_address"
+        android:textAlignment="center"
+        android:textColor="#AFAFAF"
+        android:textStyle="italic"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        android:autofillHints="@string/input_ip_address" />
+
+    <Button
+        android:id="@+id/connectButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_bg_text"
-        android:textColor="@color/colorAccent"
-        android:textStyle="italic"
-        android:fontFamily="cursive"
-        android:textSize="20pt"
-        android:alpha="0.2"
-        android:textColorHighlight="@color/colorPrimaryDark"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_connect"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterPartnerDeviceId"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
