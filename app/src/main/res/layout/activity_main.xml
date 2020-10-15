@@ -4,7 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:focusable="true"
+    android:clickable="true"
+    android:focusableInTouchMode="true">
 
     <EditText
         android:id="@+id/enterPartnerDeviceId"
@@ -40,4 +43,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/enterPartnerDeviceId"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/connectionStartupWindow"
+        android:layout_width="218dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="sans-serif-light"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connectButton"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
