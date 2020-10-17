@@ -46,13 +46,13 @@
 
     <TextView
         android:id="@+id/connectionStartupWindow"
-        android:layout_width="218dp"
-        android:layout_height="121dp"
+        android:layout_width="308dp"
+        android:layout_height="109dp"
         android:layout_marginTop="56dp"
         android:fontFamily="sans-serif-light"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="18sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
